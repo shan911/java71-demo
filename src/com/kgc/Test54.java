@@ -6,7 +6,7 @@ public class Test54 {
     //杨辉三角
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        /*System.out.println("请输入您要的杨辉三角的行数:");
+        System.out.println("请输入您要的杨辉三角的行数:");
         int n = input.nextInt();
         int[][] arr = new int[n][n];
         //给每一行数组的第一列和最后一列赋值为1；
@@ -20,14 +20,14 @@ public class Test54 {
                 arr[x][y]= arr[x-1][y-1]+arr[x-1][y];
             }
         }
-        //遍历二维数组，跟九九乘法表一样的遍历方式，右上角不要
+        //遍历二维数组，跟九九乘法表一样的遍历方式，
         for (int x = 0;x<arr.length;x++){
             for (int y = 0;y<=x;y++){
                 System.out.print(arr[x][y]+"\t");
             }
             System.out.println("   ");
         }
-        input.close();*/
+        input.close();
 
         System.out.print("输入杨辉三角的行数：");
         int b=input.nextInt();
