@@ -5,7 +5,7 @@ public class Student {
 
     //属性 ：姓名   年龄    班级    爱好
     //姓名
-    String name;
+    String name = "zhangsan";
 
     //年龄
     int age;
@@ -17,10 +17,23 @@ public class Student {
     String hobby;
 
     //方法：   输出个人信息
+    public void drink(){
+        System.out.println("喝牛奶！");
+    }
+
     public void showInfo(){
         System.out.println(name);
         System.out.println("年龄："+age);
         System.out.println("班级："+className);
         System.out.println("爱好："+hobby);
+    }
+
+    public void xinxi(){
+        drink();
+    }
+
+    public static void main(String[] args) {
+        Teacher t = new Teacher();
+        t.eat();
     }
 }

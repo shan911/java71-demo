@@ -14,5 +14,14 @@ public class TestPerson {
         p.eat();
         p.drink();
         p.showInfo();
+        System.out.println("**************");
+        p.zuoxi();
+        System.out.println("**************");
+        String name = p.getName();
+        System.out.println(name);
+
+
+
+
     }
 }

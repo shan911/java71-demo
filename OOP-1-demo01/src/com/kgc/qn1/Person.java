@@ -19,5 +19,22 @@ public class Person {
         System.out.println("我叫："+name+";我是"+sex+"生；今年"+age+"岁");
     }
 
+    //带返回值的方法： 返回给你这个人的姓名-String
+    //return一个 和 方法返回值类型一致的值
+    //return 一个值
+    //return  返回值  跳出方法
+    public String getName(){
+        return name;
+    }
 
+    public void zuoxi(){
+        eat();
+        drink();
+    }
+
+    public static void main(String[] args) {
+        Person p = new Person();
+        p.eat();
+        p.zuoxi();
+    }
 }
